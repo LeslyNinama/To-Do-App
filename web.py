@@ -8,7 +8,7 @@ def add_todo():
     todos.append(todo)
     functions.write_todos(todos)
 
-
+st.date_input('Date', format= 'DD-MM-YYYY')
 st.title('My To-Do App')
 st.subheader('This Is To Increase Your Productivity')
 for index, todo in enumerate(todos):
